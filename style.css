@@ -208,6 +208,8 @@
 #sec4 aside div:first-child img:hover{
     /* width: 310px; */
     box-shadow: 30px 30px #35404E ;
+    transition-duration: .5s;
+    transform: translate(-20px,-20px);
 }
 #sec4 aside div:nth-child(2){
     /* border: 2px solid; */
@@ -229,6 +231,8 @@
 #sec4 aside div:nth-child(2) img:hover{
     /* width: 310px; */
     box-shadow: 30px 30px #0d60ce ;
+    transition-duration: .5s;
+    transform: translate(-20px,-20px);
 }
 #sec4 aside div:last-child{
     /* border: 2px solid; */
@@ -237,6 +241,7 @@
 #sec4 aside div:last-child img{
     width: 310px;
     box-shadow: -30px -30px #dc6e0d ;
+    
 }
 #sec4 aside div h4{
     font-size: 20px;
@@ -250,6 +255,8 @@
 #sec4 aside div:last-child img:hover{
     
     box-shadow: 30px 30px #ea9708 ;
+    transition-duration: .5s;
+    transform: translate(-20px,-20px);
 }
 
 #sec5{
@@ -281,6 +288,8 @@
 #sec5 aside div:first-child img:hover{
     
     box-shadow: 30px 30px #35404E ;
+    transition-duration: .5s;
+    transform: translate(-20px,-20px);
 }
 #sec5 aside div:nth-child(2){
     /* border: 2px solid; */
@@ -302,6 +311,8 @@
 #sec5 aside div:nth-child(2) img:hover{
     
     box-shadow: 30px 30px #0d60ce ;
+    transition-duration: .5s;
+    transform: translate(-20px,-20px);
 }
 #sec5 aside div:last-child{
     /* border: 2px solid; */
@@ -323,6 +334,8 @@
 #sec5 aside div:last-child img:hover{
     
     box-shadow: 30px 30px #ea9708 ;
+    transition-duration: .5s;
+    transform: translate(-20px,-20px);
 }
 
 
@@ -424,6 +437,10 @@
     /* position: absolute; */
     /* top: 60px; */
 }
+#sec7 div aside img:hover{
+    transform: skewY(10deg);
+    transition-duration: 5s;
+}
 #sec7 div aside h6{
     /* border: 2px solid red; */
     width: 40px;
@@ -507,7 +524,18 @@
     height:550px;
 }
 #sec9 aside div img{
-    width: 448.5px;
+    width: 578.5px;
+}
+#sec9 aside div h6{
+    /* border: 2px solid red; */
+    width:409px;
+    height: 290px;
+    overflow: hidden;
+}
+#sec9 aside div img:hover{
+    transform: scale(1);
+    transform: skewY(7deg);
+    transition-duration: 1s;
 }
 #sec9 aside div article{
     /* border: 2px solid red; */
@@ -535,7 +563,7 @@
 }
 
 #sec10{
-    border: 10px solid;
+    /* border: 10px solid; */
     height: 700px;
     display: flex;
 }
@@ -613,7 +641,7 @@ justify-content: center;
     
 }
 #sec11{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 720px;
     display: flex;
     flex-direction: column;
@@ -643,6 +671,19 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     gap: 2px;
+}
+#sec11 aside div img{
+    width: 480px;
+    /* height: 00px; */
+}
+#sec11 aside div img:hover{
+    transform: skewY(7deg);
+    transition-duration: 2s;
+}
+#sec11 aside div h6{
+    /* border: 2px solid red; */
+    width: 450px;
+    overflow: hidden;
 }
 #sec11 aside div h6{
     letter-spacing: 2px;
